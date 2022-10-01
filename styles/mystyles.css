@@ -3,8 +3,9 @@ body
     padding-left: 13em; /*moves all body content to the left, making room for nav bar*/
     font-family: verdana;
     color: white;
-    background-image:linear-gradient(to left, #1ECBE1, #1E6AE1);
-    background-size: auto;
+    background-size: 100% 100% ;
+    background-image:linear-gradient(to top, #1ECBE1, #1E6AE1);
+    background-attachment: fixed;
 }
 ul.navbar
 {
