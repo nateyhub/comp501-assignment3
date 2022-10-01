@@ -15,7 +15,8 @@ ul.navbar
 	position: absolute;
     top: 0em; /*distance of nav bar from top*/
     left: 1em; /*distance of nav bar from left*/
-    width: 12em } /*width of nav bar*/
+    width: 12em; /*width of nav bar*/
+} 
 h1 
 {
     font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
@@ -53,5 +54,5 @@ address
 }
 img
 {
-    border:6px solid lightblue;
+    border:6px solid lightblue; /*image outline*/
 }
