@@ -1,32 +1,56 @@
-  body {
-   padding-left: 11em;
-   font-family: Georgia, "Times New Roman",
-          Times, serif;
-		  color: purple;
-    background-color: #d8da3d }
-	 ul.navbar {
+body
+{
+    padding-left: 13em; /*moves all body content to the left, making room for nav bar*/
+    font-family: verdana;
+    color: white;
+    background-image:linear-gradient(to left, #1ECBE1, #1E6AE1);
+    background-size: auto;
+}
+ul.navbar
+{
     list-style-type: none;
     padding: 0;
     margin: 0;
 	position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 10em }
-	h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-		ul.navbar li {
+    top: 0em; /*distance of nav bar from top*/
+    left: 1em; /*distance of nav bar from left*/
+    width: 12em } /*width of nav bar*/
+h1 
+{
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+}
+ul.navbar li 
+{
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid black }
-  ul.navbar a {
-    text-decoration: none }
-  a:link {
-    color: blue }
-  a:visited {
-    color: purple }
-	address {
+    border-right: 0.5em solid lightblue;
+}
+ul.navbar a 
+{
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul.navbar a:hover /*hover over nav bar links*/
+{
+    color:darkturquoise;
+}
+a, a:visited /*prevents links from changing colour once clicked*/
+{
+    color: white;
+}
+a:hover /*hover over body links*/
+{
+    color: lightgreen;
+}
+address 
+{
     margin-top: 1em;
     padding-top: 1em;
-    border-top: thin dotted }
+    border-top: thin dotted;
+}
+img
+{
+    border:6px solid lightblue;
+}
