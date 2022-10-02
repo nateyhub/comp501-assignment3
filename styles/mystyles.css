@@ -56,3 +56,7 @@ img
 {
     border:6px solid lightblue; /*image outline*/
 }
+.bulletSpace
+{
+    line-height: 25px; /*for producing more space between each line of an list*/
+}
