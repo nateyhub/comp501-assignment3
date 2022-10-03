@@ -2,9 +2,9 @@ body
 {
     padding-left: 13em; /*moves all body content to the left, making room for nav bar*/
     font-family: verdana;
-    color: white;
+    color: white; /*font colour*/
     background-size: 100% 100% ;
-    background-image:linear-gradient(to top, #1ECBE1, #1E6AE1);
+    background-image:linear-gradient(to top, #1ECBE1, #1E6AE1); /*background*/
     background-attachment: fixed;
 }
 ul.navbar
@@ -33,10 +33,12 @@ ul.navbar a
     color:blue;
     text-decoration: none;
     font-weight: bold;
+    font-size: 95%;
 }
 ul.navbar a:hover /*hover over nav bar links*/
 {
-    color:darkturquoise;
+    color:blueviolet;
+    font-size:100%;
 }
 a, a:visited /*prevents links from changing colour once clicked*/
 {
@@ -44,7 +46,7 @@ a, a:visited /*prevents links from changing colour once clicked*/
 }
 a:hover /*hover over body links*/
 {
-    color: lightgreen;
+    color: gold;
 }
 address 
 {
