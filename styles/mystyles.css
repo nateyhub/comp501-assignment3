@@ -48,6 +48,10 @@ a:hover /*hover over body links*/
 {
     color: gold;
 }
+p
+{
+    line-height: 25px; /*body text line spacing*/
+}
 address 
 {
     margin-top: 1em;
