@@ -1,68 +1,88 @@
-body
+.wrapper
 {
-    padding-left: 13em; /*moves all body content to the left, making room for nav bar*/
-    font-family: verdana;
-    color: white; /*font colour*/
-    background-size: 100% 100% ;
-    background-image:linear-gradient(to top, #1ECBE1, #1E6AE1); /*background*/
+    background-image:linear-gradient(to bottom, #9775e2, #863a75); /*background*/
+    width:1120px;
+    height:620px;
+    margin: auto;
+    margin-top: 0px;
+    padding-left: 45px;
+    padding-top: 1px;
+    box-shadow:  3px 3px 5px rgb(90, 26, 88);
+}
+body 
+{
+    color:rgb(255, 255, 255);
+    background-image:url("/images/ChicagoSkylineline_generated2.png"); /*requires attribution, see folder*/
+    background-color:rgb(217, 223, 223);
+    font-family:'Open Sans', Geneva, Tahoma, sans-serif;
+    background-size: 100% 100%;
+    background-position-y: 400px;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
-ul.navbar
+h2
 {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-	position: absolute;
-    top: 0em; /*distance of nav bar from top*/
-    left: 1em; /*distance of nav bar from left*/
-    width: 12em; /*width of nav bar*/
-} 
-h1 
-{
-    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+    font-size: 26px;
+    letter-spacing: 1px;
 }
-ul.navbar li 
+hr
 {
-    background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 0.5em solid lightblue;
+    height: 4px;
+    margin-top: -10px;
+    margin-right: 50px;
+    background-color: white;
 }
-ul.navbar a 
-{
-    color:blue;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 95%;
-}
-ul.navbar a:hover /*hover over nav bar links*/
-{
-    color:blueviolet;
-    font-size:100%;
-}
-a, a:visited /*prevents links from changing colour once clicked*/
-{
-    color: white;
-}
-a:hover /*hover over body links*/
-{
-    color: gold;
+.vl 
+{ /*vertical line*/
+    margin-top: 13px;
+    margin-left: 20px;
+    border-left: 4px solid #864EFF;
 }
 p
 {
-    line-height: 25px; /*body text line spacing*/
+    font-size: 17px;
+    line-height: 27px;
+}
+.topnav 
+{
+    overflow: hidden;
+    margin:auto;
+    width:1200px;
+}
+.topnav a 
+{
+    font-family:Helvetica, Geneva, Tahoma, sans-serif;
+    text-shadow: 0.2px 0.2px 1px;
+    float:left;
+    color: #673bc7;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.topnav a:hover 
+{
+    text-shadow: 1px 1px 1px #864EFF;
+}
+.topnav a.active
+ {
+    text-shadow: 1px 1px 1px #864EFF;
+}
+#title
+{
+    text-shadow: 1px 1px 0.5px #864EFF;
+    margin-left:10px;
+    margin-top:-8px;
+    font-size: 34px;
+    text-decoration: none;
 }
 address 
 {
+    width:95%;
+    opacity: 80%;
+    font-size:18px;
     margin-top: 1em;
     padding-top: 1em;
-    border-top: thin dotted;
-}
-img
-{
-    border:6px solid lightblue; /*image outline*/
-}
-.bulletSpace
-{
-    line-height: 25px; /*for producing more space between each line of an list*/
+    border-top: 1px dashed white;
+    line-height: 24px;
 }
