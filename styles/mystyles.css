@@ -48,6 +48,10 @@ a
 {
     color:white;
 }
+.ethicsLink
+{
+    color:rgb(88, 14, 88);
+}
 a:hover
 {
     color:#bbde73;
@@ -112,11 +116,11 @@ address
 }
 .ethicsTable th 
 {
-    background-color: #4d2a93;
+    background-color: #6338b8b8 ;
 }
 .ethicsTable td 
 {
-    color:rgb(57, 10, 57);
+    color:rgb(88, 14, 88);
     text-align: center;
 }
 .ethicsTable tr:nth-child(even) td 
