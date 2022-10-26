@@ -44,6 +44,14 @@ p
     font-size: 17px;
     line-height: 27px;
 }
+a
+{
+    color:white;
+}
+a:hover
+{
+    color:#bbde73;
+}
 .topnav 
 {
     overflow: hidden;
@@ -86,4 +94,40 @@ address
     padding-top: 1em;
     border-top: 1px dashed white;
     line-height: 24px;
+}
+
+.ethicsTable 
+{
+    border-collapse: collapse;
+    border: 2px solid rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.ethicsTable td, .ethicsTable th 
+{
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+.ethicsTable th 
+{
+    background-color: #4d2a93;
+}
+.ethicsTable td 
+{
+    color:rgb(57, 10, 57);
+    text-align: center;
+}
+.ethicsTable tr:nth-child(even) td 
+{
+    background-color: rgb(250,250,250);
+}
+.ethicsTable tr:nth-child(odd) td 
+{
+    background-color: rgb(245,245,245);
+}
+caption 
+{
+    padding: 10px;
 }
